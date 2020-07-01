@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=1024">
+    <link rel="stylesheet" href="./style.css">
+    <title>Перспективные захоронения</title>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__column header__column_left">
+            <a href="#" class="header__link">
+              <span class="header__link-text">К СПИСКУ ЮРИДИЧЕСКИХ ЛИЦ</span>
+            </a>
+          </div>
+          <div class="header__column header__column_right">
+            <button class="header__button-chain button-small">
+              <img src="./img/header-chain.svg" alt="цепочка" width="24" height="24">
+            </button>
+            <button class="header__button-story button-small">
+              <img src="./img/header-history.svg" alt="история" width="24" height="24">
+            </button>
+            <button class="header__button-basket button-small" id="button-basket">
+              <img src="./img/header-delete.svg" alt="удалить" width="24" height="24">
+            </button>
+          </div>
+        </div>
+      </header>
+      <aside class="aside">
+        <nav class="navigation">
+          <div class="navigation__top">
+            <ul class="navigation__list">
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">
+                  <img class="navigation__icon"
+                       src="./img/nav-home.svg"
+                       alt="домашняя страница"
+                       width="20" height="20">
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">
+                  <img class="navigation__icon"
+                       src="./img/nav-order.svg"
+                       alt="заказы"
+                       width="20" height="20">
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">
+                  <img class="navigation__icon"
+                       src="./img/nav-safety.svg"
+                       alt="безопасность"
+                       width="20" height="20">
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">
+                  <img class="navigation__icon"
+                       src="./img/nav-catalog.svg"
+                       alt="каталог"
+                       width="20" height="20">
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">
+                  <img class="navigation__icon"
+                       src="./img/nav-administration.svg"
+                       alt="управление"
+                       width="20" height="20">
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">
+                  <img class="navigation__icon"
+                       src="./img/nav-agentservice.svg"
+                       alt="сервисная служба"
+                       width="20" height="20">
+                </a>
+              </li>
+              <li class="navigation__item">
+                <button class="navigation__link" type="button">
+                  <img class="navigation__icon"
+                       src="./img/nav-search.svg"
+                       alt="поиск"
+                       width="20" height="20">
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="navigation__bottom">
+            <ul class="navigation__list">
+              <li class="navigation__divider"></li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">
+                  <img class="navigation__icon"
+                       src="./img/nav-chat-menu.svg"
+                       alt="чат"
+                       width="20" height="20">
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">
+                  <img class="navigation__icon"
+                       src="./img/nav-contactors.svg"
+                       alt="контакты"
+                       width="20" height="20">
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">
+                  <img class="navigation__icon"
+                       src="./img/nav-exit.svg"
+                       alt="выход"
+                       width="20" height="20">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="submenu">
+          <h2 class="submenu__title">Честный агент</h2>
+          <h3 class="submenu__subtitle">Менеджер процесса</h3>
+          <ul class="submenu__list">
+            <li class="submenu__item">
+              <a href="" class="submenu__link submenu__link_current">
+                <img class="submenu__icon"
+                     src="./img/aside-company.svg"
+                     alt="организации"
+                     width="16" height="16">
+                Организации
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <main class="main">
+        <div class="main__top">
+          <h1 class="main__title">Перспективные захоронения</h1>
+          <button class="main-title__button button-small" type="button">
+            <img class="main-title__button-image" src="./img/main-edit.svg" alt="редактировать">
+          </button>
+        </div>
+        <hr class="section-divider">
+        <section class="section">
+          <header class="section__header">
+            <h4 class="section__title">Общая информация</h4>
+            <button class="section__top-button section-title__button-edit button-small" type="button">
+              <img class="section-title__button-image" src="./img/main-edit.svg" alt="редактировать">
+            </button>
+          </header>
+          <div class="section__body">
+            <table class="section-table">
+              <tbody class="section-table__body">
+                <tr class="section-table__row">
+                  <th class="section-table__cell section-table__cell_head">Полное название:</th>
+                  <td class="section-table__cell">ООО Фирма “Перспективные захоронения”</td>
+                </tr>
+                <tr class="section-table__row">
+                  <th class="section-table__cell section-table__cell_head">Договор:</th>
+                  <td class="section-table__cell">12345 от 12.03.2015, расторгнут 20.05.2017</td>
+                </tr>
+                <tr class="section-table__row">
+                  <th class="section-table__cell section-table__cell_head">Форма:</th>
+                  <td class="section-table__cell">ООО</td>
+                </tr>
+                <tr class="section-table__row">
+                  <th class="section-table__cell section-table__cell_head">Тип:</th>
+                  <td class="section-table__cell">Агент, Подрядчик</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <hr class="section-divider">
+        <section class="section">
+          <header class="section__header">
+            <h4 class="section__title">Контактные данные</h4>
+            <button class="section__top-button section-title__button-edit button-small" type="button">
+              <img class="section-title__button-image" src="./img/main-edit.svg" alt="редактировать">
+            </button>
+          </header>
+          <div class="section__body">
+            <table class="section-table">
+              <tbody class="section-table__body">
+                <tr class="section-table__row">
+                  <th class="section-table__cell section-table__cell_head">ФИО:</th>
+                  <td class="section-table__cell">Григорьев Сергей Петрович</td>
+                </tr>
+                <tr class="section-table__row">
+                  <th class="section-table__cell section-table__cell_head">Телефон:</th>
+                  <td class="section-table__cell">+7 (916) 216-55-88</td>
+                </tr>
+                <tr class="section-table__row">
+                  <th class="section-table__cell section-table__cell_head">Эл. почта:</th>
+                  <td class="section-table__cell">
+                    <a class="section-table__link" href="#">grigoriev@funeral.com</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <hr class="section-divider">
+        <section class="section">
+          <header class="section__header">
+            <h4 class="section__title">Адреса и телефоны</h4>
+            <button class="section__top-button section-title__button-edit button-small" type="button">
+              <img class="section-title__button-image" src="./img/main-edit.svg" alt="редактировать">
+            </button>
+          </header>
+          <div class="section__body">
+            <table class="section-table">
+              <tbody class="section-table__body">
+                <tr class="section-table__row">
+                  <th class="section-table__cell section-table__cell_head">Юр. адрес:</th>
+                  <td>105173, г. Балашиха, ул. Молодежная, д. 12А корп. 2, офис 312</td>
+                </tr>
+                <tr class="section-table__row">
+                  <th class="section-table__cell section-table__cell_head">Юр. телефон:</th>
+                  <td class="section-table__cell">+7 (495) 345-55-88</td>
+                </tr>
+                <tr class="section-table__row">
+                  <th class="section-table__cell section-table__cell_head">Фактич. адрес:</th>
+                  <td class="section-table__cell">105173, г. Балашиха, ул. Молодежная, д. 12А корп. 2, офис 312</td>
+                </tr>
+                <tr class="section-table__row">
+                  <th class="section-table__cell section-table__cell_head">Телефон:</th>
+                  <td class="section-table__cell">+7 (916) 216-55-88</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <section class="section">
+          <header class="section__header">
+            <h4 class="section__title">Реквизиты организации</h4>
+            <button class="section__top-button section-title__button-edit button-small" type="button">
+              <img class="section-title__button-image" src="./img/main-edit.svg" alt="редактировать">
+            </button>
+          </header>
+          <div class="section__body">
+            <table class="section-table">
+              <tbody class="section-table__body">
+                <tr class="section-table__row">
+                  <th class="section-table__cell section-table__cell_head">БИК:</th>
+                  <td class="section-table__cell">044525225</td>
+                </tr>
+                <tr class="section-table__row">
+                  <th class="section-table__cell section-table__cell_head">Банк:</th>
+                  <td class="section-table__cell">ПАО СБЕРБАНК</td>
+                </tr>
+                <tr class="section-table__row">
+                  <th class="section-table__cell section-table__cell_head">Р/С:</th>
+                  <td class="section-table__cell">4070 2810 0000 9000 1425</td>
+                </tr>
+                <tr class="section-table__row">
+                  <th class="section-table__cell section-table__cell_head">К/С:</th>
+                  <td class="section-table__cell">3010 1810 5403 0000 0795 БИК 044 030 795</td>
+                </tr>
+                <tr class="section-table__row">
+                  <th class="section-table__cell section-table__cell_head">ИНН:</th>
+                  <td class="section-table__cell">1001254535</td>
+                </tr>
+                <tr class="section-table__row">
+                  <th class="section-table__cell section-table__cell_head">КПП:</th>
+                  <td class="section-table__cell">773101001</td>
+                </tr>
+                <tr class="section-table__row">
+                  <th class="section-table__cell section-table__cell_head">ОГРН:</th>
+                  <td class="section-table__cell">1053600591197</td>
+                </tr>
+                <tr class="section-table__row">
+                  <th class="section-table__cell section-table__cell_head">Ген. директор:</th>
+                  <td class="section-table__cell">Степаненко Игорь Яковлевич</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <hr class="section-divider">
+        <section class="section">
+          <header class="section__header">
+            <h4 class="section__title">Приложенные файлы</h4>
+          </header>
+          <div class="section__body">
+            <form class="section-form" action="#">
+              <div class="file-input">
+                <ul class="file-input__list" id="file-list">
+                  <li class="file-input__item">
+                    <img class="file-input__icon"
+                         src="./img/main-file.svg"
+                         alt="файл пдф"
+                         width="25" height="28">
+                    <div class="file-input__content">
+                      <p class="file-input__name">Договор ЗН 1234-4567.pdf</p>
+                      <p class="file-input__type">Файл PDF, 1.2 МБ</p>
+                    </div>
+                    <button class="file-input__delete button-small" type="button" aria-label="удалить"></button>
+                  </li>
+                  <li class="file-input__item">
+                    <img class="file-input__icon"
+                         src="./img/main-zip.svg"
+                         alt="файл зип"
+                         width="25" height="28">
+                    <div class="file-input__content">
+                      <p class="file-input__name">Фотографии счета на оп...</p>
+                      <p class="file-input__type">Файл ZIP, 200 КБ</p>
+                    </div>
+                    <button class="file-input__delete button-small" type="button" aria-label="удалить"></button>
+                  </li>
+                  <li class="file-input__item">
+                    <img class="file-input__icon"
+                         src="./img/main-zip.svg"
+                         alt="файл зип"
+                         width="25" height="28">
+                    <div class="file-input__content">
+                      <p class="file-input__name">Документы за декабрь.zip</p>
+                      <p class="file-input__type">Файл ZIP, 200 КБ</p>
+                    </div>
+                    <button class="file-input__delete button-small" type="button" aria-label="удалить"></button>
+                  </li>
+                </ul>
+
+                <label class="file-input__label" for="files-input">Добавить файл</label>
+                <input class="file-input__input"
+                       id="files-input"
+                       name="files-input"
+                       type="file">
+              </div>
+            </form>
+          </div>
+        </section>
+        <hr class="section-divider">
+      </main>
+      <footer class="footer">
+        <div class="footer__content">
+          <p class="footer__text">© 1992 - 2020 Честный Агент © Все права защищены.</p>
+          <p class="footer__text">
+            <a class="footer__phone-link" href="tel: 8 (495) 150-21-21">8 (495) 150-21-21</a>
+          </p>
+        </div>
+      </footer>
+      <div class="delete-window-wrapper" id="window-basket">
+        <div class="delete-window">
+          <h5 class="delete-window__title">Удалить карточку</h5>
+          <p class="delete-window__text">Отправить карточку организации в архив?</p>
+          <div class="delete-window__buttons">
+            <button class="delete-window__button delete-window__cancel" id="button-basket-cancel" type="button">Отмена</button>
+            <button class="delete-window__button delete-window__submit" id="button-basket-submit" type="button">Удалить</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
